@@ -3458,12 +3458,17 @@ aside .links .spoler_btn.active .icon
 
 .main_slider .image
 {
+    color: var(--text_color);
+
     position: relative;
     z-index: 3;
 
+    display: block;
     overflow: hidden;
 
     padding-bottom: 27.34%;
+
+    text-decoration: none;
 
     border-radius: 5px;
     background: #ddd;

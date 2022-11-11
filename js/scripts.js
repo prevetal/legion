@@ -578,6 +578,10 @@ $(() => {
 			type: 'inline'
 		}])
 	})
+
+
+	// Залипание блока
+	const Sticky = new hcSticky('.sticky')
 })
 
 

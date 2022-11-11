@@ -158,6 +158,7 @@
         --form_columns_offset: 12px;
     }
 
+    .form .columns > *,
     .form .columns > *.width1of3,
     .form .columns > *.width2of3
     {
@@ -167,7 +168,7 @@
 
     .form .line
     {
-        margin-bottom: 20px;
+        margin-bottom: 16px;
     }
 
 
