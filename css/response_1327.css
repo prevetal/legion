@@ -1,0 +1,73 @@
+@media print,
+(max-width: 1327px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 260px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .search
+    {
+        width: 380px;
+    }
+
+
+    header .icons > * + *
+    {
+        margin-left: 28px;
+    }
+
+
+    header .menu,
+    header .menu_item > a
+    {
+        padding: 0 10px;
+    }
+
+
+    header .catalog .mini_modal,
+    header .catalog .mini_modal.active
+    {
+        padding: 28px 32px;
+    }
+
+
+
+    /*-----------------
+        Action form
+    -----------------*/
+    .action_form .img
+    {
+        margin-left: -690px;
+    }
+
+
+    .action_form .call
+    {
+        margin-left: 40px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .report_btn
+    {
+        width: 472px;
+    }
+
+
+    footer .subscribe
+    {
+        width: calc(100% - 472px);
+    }
+}

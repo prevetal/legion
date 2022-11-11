@@ -1,0 +1,835 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 100%;
+        --font_size: 15px;
+        --font_size_title: 28px;
+    }
+
+
+    .swiper-button-prev
+    {
+        left: -24px;
+    }
+
+    .swiper-button-next
+    {
+        right: -24px;
+    }
+
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        bottom: 16px;
+    }
+
+
+    .content_flex .content
+    {
+        width: 100%;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*--------------
+        BG block
+    --------------*/
+    .bg_block
+    {
+        background-size: auto calc(100% - 110px);
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        left: 0;
+
+        width: 325px;
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        margin: 0;
+        padding: 0;
+
+        transition: transform .3s linear;
+        transform: translateX(-100%);
+
+        background: #fff;
+    }
+
+    header.show
+    {
+        transform: translateX(0);
+    }
+
+
+    header .mob_scroll
+    {
+        display: flex;
+        overflow: auto;
+
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        padding: 0;
+
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        overscroll-behavior-y: contain;
+    }
+
+    header .mob_scroll > *
+    {
+        width: 100%;
+    }
+
+
+    header .top
+    {
+        padding: 16px 0;
+
+        order: 2;
+    }
+
+
+    header .info
+    {
+        padding: 20px 0;
+
+        order: 3;
+    }
+
+
+    header .bottom
+    {
+        display: block;
+    }
+
+    header .bottom:after
+    {
+        display: none;
+    }
+
+    header .bottom .cont
+    {
+        padding: 0;
+    }
+
+
+    header .links
+    {
+        display: block;
+    }
+
+    header .links > * + *
+    {
+        margin-top: 4px;
+        margin-left: 0;
+    }
+
+    header .links a
+    {
+        padding: 0;
+    }
+
+
+    header .logo,
+    header .search,
+    header .sep,
+    header .icons,
+    header .catalog
+    {
+        display: none;
+    }
+
+
+    header .contacts
+    {
+        width: 100%;
+        margin-bottom: -24px;
+
+        justify-content: space-between;
+    }
+
+    header .contacts > *
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 24px;
+    }
+
+    header .contacts > * + *
+    {
+        margin-left: 0;
+    }
+
+
+    header .bottom .data
+    {
+        display: block;
+
+        padding: 0;
+
+        border-radius: 0;
+    }
+
+
+    header .catalog .btn
+    {
+        width: 100%;
+        padding: 0 24px;
+
+        border-radius: 0;
+
+        justify-content: flex-start;
+    }
+
+
+    header .menu
+    {
+        padding: 8px 0;
+    }
+
+    header .menu_item
+    {
+        width: 50%;
+    }
+
+    header .menu_item + .menu_item
+    {
+        margin-left: 0;
+    }
+
+    header .menu_item:nth-child(2) ~ .menu_item
+    {
+        margin-top: 4px;
+    }
+
+    header .menu_item > a
+    {
+        font-size: 15px;
+        line-height: 19px;
+
+        padding: 0 24px;
+
+        justify-content: flex-start;
+    }
+
+
+    header .menu_item > a.active:before,
+    header .menu_item > a.active:after
+    {
+        display: none;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        display: block;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside
+    {
+        margin-bottom: 24px;
+    }
+
+    aside > * + *
+    {
+        margin: 0;
+    }
+
+
+    aside .links
+    {
+        display: none;
+    }
+
+
+    .filter .mob_btn
+    {
+        display: block;
+    }
+
+    .filter form
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .desc
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 23px;
+        line-height: 27px;
+    }
+
+    .text_block h3
+    {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    .text_block h4
+    {
+        line-height: 24px;
+    }
+
+
+    .text_block img.full_w
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+
+    .text_block figure img,
+    .text_block figure figcaption
+    {
+        width: calc(50% - 12px);
+    }
+
+
+    .text_block .big
+    {
+        font-size: 17px;
+    }
+
+
+    .text_block .cols .col
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .text_block blockquote
+    {
+        padding: 20px 24px;
+    }
+
+
+    .text_block table th
+    {
+        line-height: 20px;
+
+        padding: 12px 20px;
+    }
+
+    .text_block table td
+    {
+        padding: 12px 20px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .image
+    {
+        padding-bottom: 30%;
+    }
+
+
+
+    /*----------------
+        Directions
+    ----------------*/
+    .directions .row
+    {
+        margin-bottom: -32px;
+        margin-left: -16px;
+    }
+
+    .directions .row > *
+    {
+        width: calc(33.333% - 16px);
+        margin-bottom: 32px;
+        margin-left: 16px;
+    }
+
+    .directions .row > * ~ *
+    {
+        order: 3;
+    }
+
+    .directions .row > *.big_w
+    {
+        width: calc(66.666% - 16px);
+
+        order: 2;
+    }
+
+
+    .directions .direction .icon:before
+    {
+        width: 91px;
+        height: 77px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row > *
+    {
+        width: calc(33.333% - 24px);
+    }
+
+
+    .advantages .item .icon
+    {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 16px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .swiper-button-prev
+    {
+        left: -24px;
+    }
+
+    .products .swiper-button-next
+    {
+        right: -24px;
+    }
+
+
+    .products .product .thumb div
+    {
+        padding: 35px 16px 20px;
+    }
+
+
+    .products .product .name
+    {
+        line-height: 20px;
+
+        padding: 0 16px 16px;
+    }
+
+
+    .products .product .buy
+    {
+        padding: 16px;
+    }
+
+
+    .products .product .price
+    {
+        display: flex;
+
+        width: 100%;
+        margin-bottom: 12px;
+
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .products .product .price .old
+    {
+        margin-left: 12px;
+    }
+
+
+    .products .product .amount
+    {
+        width: calc(100% - 84px);
+        margin-left: 0;
+    }
+
+
+    .products .list .product .buy
+    {
+        padding-top: 8px;
+    }
+
+
+    .products .list .product .price
+    {
+        display: block;
+
+        width: auto;
+        margin: 0;
+    }
+
+
+    .products .list .product .amount,
+    .products .list .product .buy_btn
+    {
+        margin-top: 0;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .swiper
+    {
+        padding: 0 40px;
+    }
+
+
+    .clients .swiper-button-prev
+    {
+        left: -24px;
+    }
+
+    .clients .swiper-button-next
+    {
+        right: -24px;
+    }
+
+
+
+    /*-----------------
+        Action form
+    -----------------*/
+    .action_form .block_head
+    {
+        width: 100%;
+        margin-right: 0;
+    }
+
+
+    .action_form .form
+    {
+        margin-right: auto;
+    }
+
+
+    .action_form .img
+    {
+        display: none;
+    }
+
+
+
+    /*----------
+        Tags
+    -----------*/
+    .tags
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .tags .row
+    {
+        margin-bottom: -8px;
+        margin-left: -8px;
+    }
+
+    .tags .row > *
+    {
+        margin-bottom: 8px;
+        margin-left: 8px;
+    }
+
+
+
+    /*-------------
+        LK info
+    -------------*/
+    .lk_info .personal,
+    .lk_info .password
+    {
+        --sidebar_width: 100%;
+    }
+
+
+    .lk_info aside
+    {
+        margin-top: 24px;
+        margin-bottom: 0;
+    }
+
+
+    .lk_info .btns,
+    .lk_info .password .btns
+    {
+        padding-top: 0;
+    }
+
+
+    .lk_info .history .head .price
+    {
+        width: 120px;
+    }
+
+
+    .lk_info .history .products .product .info
+    {
+        width: calc(100% - 360px);
+    }
+
+
+    .lk_info .history .products .product .buy
+    {
+        width: 120px;
+    }
+
+
+    .lk_info .history .order_total .price
+    {
+        font-size: 22px;
+
+        width: 120px;
+    }
+
+
+    .lk_info .history .products .product .amount .val
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .cont > .data
+    {
+        padding: 20px;
+    }
+
+
+    .product_info .swiper-button-next,
+    .product_info .swiper-button-prev
+    {
+        display: none !important;
+    }
+
+
+    .product_info .images .thumbs .btn
+    {
+        width: 80px;
+        padding-bottom: 78px;
+    }
+
+
+    .product_info .images .big .swiper-slide .zoom
+    {
+        width: 64px;
+        height: 64px;
+    }
+
+    .product_info .images .big .swiper-slide .zoom svg
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    .product_info .info
+    {
+        padding: 0;
+    }
+
+    .product_info .info .col
+    {
+        width: 100%;
+        margin-top: 20px;
+
+        order: 2;
+    }
+
+
+    .product_info .info .buy
+    {
+        display: flex;
+
+        width: 100%;
+
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+
+    .product_info .info .price
+    {
+        font-size: 28px;
+
+        display: flex;
+
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .product_info .info .price .old
+    {
+        font-size: 18px;
+
+        margin-left: 12px;
+    }
+
+    .product_info .info .price .exp
+    {
+        width: 100%;
+    }
+
+
+    .product_info .info .amount
+    {
+        width: 120px;
+        margin-top: 20px;
+    }
+
+    .product_info .info .buy_btn
+    {
+        width: 144px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+
+
+    .product_data
+    {
+        margin-top: 24px;
+    }
+
+
+    .product_data .features .col,
+    .product_data .features .col + .col
+    {
+        width: calc(50% - 12px);
+    }
+
+    .product_data .features .col > * + *
+    {
+        margin-top: 8px;
+    }
+
+
+    .product_data .features .label
+    {
+        width: 164px;
+        padding-right: 12px;
+    }
+
+    .product_data .features .val
+    {
+        width: calc(100% - 164px);
+    }
+
+
+
+    /*----------------------
+        Cooperation form
+    ----------------------*/
+    .cooperation_form .data
+    {
+        padding: 38px;
+    }
+
+
+    .cooperation_form .block_title
+    {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .info
+    {
+        padding-bottom: 50px;
+    }
+
+
+    footer .subscribe form
+    {
+        margin-left: auto;
+    }
+
+
+    footer .links
+    {
+        display: none;
+    }
+
+
+    footer .contacts
+    {
+        width: 376px;
+        padding-left: 47px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

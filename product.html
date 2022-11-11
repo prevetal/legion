@@ -1,0 +1,1828 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.png">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#eebf12">
+		<meta name="theme-color" content="#eebf12">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/ion.rangeSlider.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1327.css" media="print, (max-width: 1327px)" async>
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<button class="mob_close_btn"></button>
+
+					<div class="mob_scroll">
+						<div class="top">
+							<div class="cont">
+								<div class="links row">
+									<div><a href="/">О компании</a></div>
+									<div><a href="/">Сотрудничество</a></div>
+									<div><a href="/">Доставка</a></div>
+									<div><a href="/">Оплата</a></div>
+									<div><a href="/">Контакты</a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="info">
+							<div class="cont row">
+								<a href="/" class="logo">
+									<img src="images/logo.png" alt="">
+								</a>
+								
+								<div class="search">
+									<form action="">
+										<input type="text" name="" value="" class="input" placeholder="Поиск по каталогу">
+
+										<button type="submit" class="submit_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+										</button>
+									</form>
+								</div>
+
+								<div class="contacts">
+									<div>
+										<div class="phone">
+											<a href="tel:88047004304">8 804 700-43-04</a>
+										</div>
+
+										<button class="callback_btn modal_btn" data-modal="#callback_modal">Обратный звонок</button>
+									</div>
+
+									<div>
+										<div class="phone">
+											<a href="tel:89653881102">8 965 388-11-02</a>
+										</div>
+
+										<div class="time">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_time"></use></svg>
+											<span>08:00–20:00</span>
+										</div>
+									</div>
+
+									<div>
+										<div class="phone">
+											<a href="tel:89653881103">8 965 388-11-03</a>
+										</div>
+
+										<div class="socials">
+											<a href="/" target="_blank" rel="noopener nofollow" class="telegram_link">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+											</a>
+
+											<a href="/" target="_blank" rel="noopener nofollow" class="whatsapp_link">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="sep"></div>
+
+								<div class="icons">
+									<div class="account">
+										<a href="/">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_account"></use></svg>
+										</a>
+									</div>
+
+									<div class="favorite">
+										<a href="/">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+											<span class="count">15</span>
+										</a>
+									</div>
+
+									<div class="cart">
+										<a href="/">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+											<span class="count">2</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="bottom">
+							<div class="cont">
+								<div class="data row">
+									<div class="catalog modal_cont">
+										<button class="btn mini_modal_btn" data-modal-id="#catalog_modal">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+											<span>КАТАЛОГ</span>
+										</button>
+									
+										<div class="mini_modal" id="catalog_modal">
+											<div class="row">
+												<div class="categories">
+													<div>
+														<a href="/" class="active">
+															<span>Стройматериалы</span>
+															<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+														</a>
+													</div>
+	
+													<div>
+														<a href="/">
+															<span>Инструмент</span>
+															<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+														</a>
+													</div>
+	
+													<div>
+														<a href="/">
+															<span>Электрика</span>
+															<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+														</a>
+													</div>
+	
+													<div>
+														<a href="/">
+															<span>Инженерные системы</span>
+															<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+														</a>
+													</div>
+	
+													<div>
+														<a href="/">
+															<span>Интерьер и отделка</span>
+															<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+														</a>
+													</div>
+	
+													<div>
+														<a href="/">
+															<span>Сантехника</span>
+															<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+														</a>
+													</div>
+	
+													<div>
+														<a href="/">
+															<span>Крепеж</span>
+															<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+														</a>
+													</div>
+	
+													<div>
+														<a href="/">
+															<span>Благоустройство</span>
+															<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+														</a>
+													</div>
+												</div>
+	
+	
+												<div class="sub sub1" style="display: block;">
+													<div class="row">
+														<div class="col">
+															<div><a href="/"><span>Общестроительные материалы</span></a></div>
+															<div><a href="/"><span>Стеновые и фасадные материалы</span></a></div>
+															<div><a href="/"><span>Кровля, водосточные сситемы</span></a></div>
+															<div><a href="/"><span>Сухие строительные смеси</span></a></div>
+															<div><a href="/"><span>Металлопрокат</span></a></div>
+															<div><a href="/"><span>Винтовые сваи</span></a></div>
+														</div>
+	
+														<div class="col">
+															<div><a href="/"><span>Теплоизоляция и шумоизоляция</span></a></div>
+															<div><a href="/"><span>Материалы для сухого строительства</span></a></div>
+															<div><a href="/"><span>Древесно-плитные материалы</span></a></div>
+															<div><a href="/"><span>Пиломатериалы</span></a></div>
+															<div><a href="/"><span>Гидроизоляция</span></a></div>
+															<div><a href="/"><span>Заборы и оргаждения</span></a></div>
+														</div>
+													</div>
+												</div>
+	
+	
+												<div class="sub sub2">
+													<div class="row">
+														<div class="col">
+															<div><a href="/"><span>Общестроительные материалы</span></a></div>
+															<div><a href="/"><span>Стеновые и фасадные материалы</span></a></div>
+															<div><a href="/"><span>Кровля, водосточные сситемы</span></a></div>
+															<div><a href="/"><span>Сухие строительные смеси</span></a></div>
+															<div><a href="/"><span>Металлопрокат</span></a></div>
+															<div><a href="/"><span>Винтовые сваи</span></a></div>
+														</div>
+	
+														<div class="col">
+															<div><a href="/"><span>Теплоизоляция и шумоизоляция</span></a></div>
+															<div><a href="/"><span>Материалы для сухого строительства</span></a></div>
+															<div><a href="/"><span>Древесно-плитные материалы</span></a></div>
+															<div><a href="/"><span>Пиломатериалы</span></a></div>
+															<div><a href="/"><span>Гидроизоляция</span></a></div>
+															<div><a href="/"><span>Заборы и оргаждения</span></a></div>
+														</div>
+													</div>
+												</div>
+	
+	
+												<div class="sub sub3">
+													<div class="row">
+														<div class="col">
+															<div><a href="/"><span>Общестроительные материалы</span></a></div>
+															<div><a href="/"><span>Стеновые и фасадные материалы</span></a></div>
+															<div><a href="/"><span>Кровля, водосточные сситемы</span></a></div>
+															<div><a href="/"><span>Сухие строительные смеси</span></a></div>
+															<div><a href="/"><span>Металлопрокат</span></a></div>
+															<div><a href="/"><span>Винтовые сваи</span></a></div>
+														</div>
+	
+														<div class="col">
+															<div><a href="/"><span>Теплоизоляция и шумоизоляция</span></a></div>
+															<div><a href="/"><span>Материалы для сухого строительства</span></a></div>
+															<div><a href="/"><span>Древесно-плитные материалы</span></a></div>
+															<div><a href="/"><span>Пиломатериалы</span></a></div>
+															<div><a href="/"><span>Гидроизоляция</span></a></div>
+															<div><a href="/"><span>Заборы и оргаждения</span></a></div>
+														</div>
+													</div>
+												</div>
+	
+	
+												<div class="sub sub4">
+													<div class="row">
+														<div class="col">
+															<div><a href="/"><span>Общестроительные материалы</span></a></div>
+															<div><a href="/"><span>Стеновые и фасадные материалы</span></a></div>
+															<div><a href="/"><span>Кровля, водосточные сситемы</span></a></div>
+															<div><a href="/"><span>Сухие строительные смеси</span></a></div>
+															<div><a href="/"><span>Металлопрокат</span></a></div>
+															<div><a href="/"><span>Винтовые сваи</span></a></div>
+														</div>
+	
+														<div class="col">
+															<div><a href="/"><span>Теплоизоляция и шумоизоляция</span></a></div>
+															<div><a href="/"><span>Материалы для сухого строительства</span></a></div>
+															<div><a href="/"><span>Древесно-плитные материалы</span></a></div>
+															<div><a href="/"><span>Пиломатериалы</span></a></div>
+															<div><a href="/"><span>Гидроизоляция</span></a></div>
+															<div><a href="/"><span>Заборы и оргаждения</span></a></div>
+														</div>
+													</div>
+												</div>
+	
+	
+												<div class="sub sub5">
+													<div class="row">
+														<div class="col">
+															<div><a href="/"><span>Общестроительные материалы</span></a></div>
+															<div><a href="/"><span>Стеновые и фасадные материалы</span></a></div>
+															<div><a href="/"><span>Кровля, водосточные сситемы</span></a></div>
+															<div><a href="/"><span>Сухие строительные смеси</span></a></div>
+															<div><a href="/"><span>Металлопрокат</span></a></div>
+															<div><a href="/"><span>Винтовые сваи</span></a></div>
+														</div>
+	
+														<div class="col">
+															<div><a href="/"><span>Теплоизоляция и шумоизоляция</span></a></div>
+															<div><a href="/"><span>Материалы для сухого строительства</span></a></div>
+															<div><a href="/"><span>Древесно-плитные материалы</span></a></div>
+															<div><a href="/"><span>Пиломатериалы</span></a></div>
+															<div><a href="/"><span>Гидроизоляция</span></a></div>
+															<div><a href="/"><span>Заборы и оргаждения</span></a></div>
+														</div>
+													</div>
+												</div>
+	
+	
+												<div class="sub sub6">
+													<div class="row">
+														<div class="col">
+															<div><a href="/"><span>Общестроительные материалы</span></a></div>
+															<div><a href="/"><span>Стеновые и фасадные материалы</span></a></div>
+															<div><a href="/"><span>Кровля, водосточные сситемы</span></a></div>
+															<div><a href="/"><span>Сухие строительные смеси</span></a></div>
+															<div><a href="/"><span>Металлопрокат</span></a></div>
+															<div><a href="/"><span>Винтовые сваи</span></a></div>
+														</div>
+	
+														<div class="col">
+															<div><a href="/"><span>Теплоизоляция и шумоизоляция</span></a></div>
+															<div><a href="/"><span>Материалы для сухого строительства</span></a></div>
+															<div><a href="/"><span>Древесно-плитные материалы</span></a></div>
+															<div><a href="/"><span>Пиломатериалы</span></a></div>
+															<div><a href="/"><span>Гидроизоляция</span></a></div>
+															<div><a href="/"><span>Заборы и оргаждения</span></a></div>
+														</div>
+													</div>
+												</div>
+	
+	
+												<div class="sub sub7">
+													<div class="row">
+														<div class="col">
+															<div><a href="/"><span>Общестроительные материалы</span></a></div>
+															<div><a href="/"><span>Стеновые и фасадные материалы</span></a></div>
+															<div><a href="/"><span>Кровля, водосточные сситемы</span></a></div>
+															<div><a href="/"><span>Сухие строительные смеси</span></a></div>
+															<div><a href="/"><span>Металлопрокат</span></a></div>
+															<div><a href="/"><span>Винтовые сваи</span></a></div>
+														</div>
+	
+														<div class="col">
+															<div><a href="/"><span>Теплоизоляция и шумоизоляция</span></a></div>
+															<div><a href="/"><span>Материалы для сухого строительства</span></a></div>
+															<div><a href="/"><span>Древесно-плитные материалы</span></a></div>
+															<div><a href="/"><span>Пиломатериалы</span></a></div>
+															<div><a href="/"><span>Гидроизоляция</span></a></div>
+															<div><a href="/"><span>Заборы и оргаждения</span></a></div>
+														</div>
+													</div>
+												</div>
+	
+	
+												<div class="sub sub8">
+													<div class="row">
+														<div class="col">
+															<div><a href="/"><span>Общестроительные материалы</span></a></div>
+															<div><a href="/"><span>Стеновые и фасадные материалы</span></a></div>
+															<div><a href="/"><span>Кровля, водосточные сситемы</span></a></div>
+															<div><a href="/"><span>Сухие строительные смеси</span></a></div>
+															<div><a href="/"><span>Металлопрокат</span></a></div>
+															<div><a href="/"><span>Винтовые сваи</span></a></div>
+														</div>
+	
+														<div class="col">
+															<div><a href="/"><span>Теплоизоляция и шумоизоляция</span></a></div>
+															<div><a href="/"><span>Материалы для сухого строительства</span></a></div>
+															<div><a href="/"><span>Древесно-плитные материалы</span></a></div>
+															<div><a href="/"><span>Пиломатериалы</span></a></div>
+															<div><a href="/"><span>Гидроизоляция</span></a></div>
+															<div><a href="/"><span>Заборы и оргаждения</span></a></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<nav class="menu row">
+										<div class="menu_item">
+											<a class="active">Стройматериалы</a>
+										</div>
+	
+										<div class="menu_item">
+											<a href="/">Инструмент</a>
+										</div>
+	
+										<div class="menu_item">
+											<a href="/">Электрика</a>
+										</div>
+	
+										<div class="menu_item">
+											<a href="/">Инженерные системы</a>
+										</div>
+	
+										<div class="menu_item">
+											<a href="/">Интерьер и отделка</a>
+										</div>
+	
+										<div class="menu_item">
+											<a href="/">Сантехника</a>
+										</div>
+	
+										<div class="menu_item">
+											<a href="/">Крепеж</a>
+										</div>
+	
+										<div class="menu_item">
+											<a href="/">Благоустройство</a>
+										</div>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="cont row">
+						<a href="/" class="logo">
+							<img src="images/logo.png" alt="">
+						</a>
+
+						<div class="icons">
+							<div class="account">
+								<a href="/">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_account"></use></svg>
+								</a>
+							</div>
+
+							<div class="favorite">
+								<a href="/">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+									<span class="count">15</span>
+								</a>
+							</div>
+
+							<div class="cart">
+								<a href="/">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+									<span class="count">2</span>
+								</a>
+							</div>
+
+							<div class="mob_menu">
+								<button class="btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+								</button>
+							</div>
+						</div>
+
+						<div class="search">
+							<form action="">
+								<input type="text" name="" value="" class="input" placeholder="Поиск по каталогу">
+
+								<button type="submit" class="submit_btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+								</button>
+							</form>
+						</div>
+					</div>
+				</section>
+				
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> <span class="sep"></span>
+							<a href="/">Стройматериалы</a> <span class="sep"></span>
+							<a href="/">Материалы для сухого строительства</a> <span class="sep"></span>
+							<span class="current">Гипсокартон Knauf 2500х1200х12,5 мм влагостойкий</span>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="product_info block">
+					<div class="cont">
+						<h1 class="page_title">Гипсокартон Knauf 2500х1200х12,5 мм влагостойкий</h1>
+
+						<div class="data">
+							<div class="images">
+								<div class="stickers">
+									<div><div class="sticker red">
+										<div class="icon">
+											<svg><use xlink:href="images/sprite.svg#ic_percents"></use></svg>
+										</div>
+										<span>СКИДКА</span>
+									</div></div>
+								</div>
+
+								<div class="big">
+									<div class="swiper">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<a href="images/tmp/product_img.jpg" class="fancy_img" data-fancybox="product">
+													<img data-src="images/tmp/product_img.jpg" alt="" class="swiper-lazy">
+	
+													<div class="zoom">
+														<svg><use xlink:href="images/sprite.svg#ic_zoom"></use></svg>
+													</div>
+												</a>
+											</div>
+	
+											<div class="swiper-slide">
+												<a href="images/tmp/product_img.jpg" class="fancy_img" data-fancybox="product">
+													<img data-src="images/tmp/product_img.jpg" alt="" class="swiper-lazy">
+	
+													<div class="zoom">
+														<svg><use xlink:href="images/sprite.svg#ic_zoom"></use></svg>
+													</div>
+												</a>
+											</div>
+	
+											<div class="swiper-slide">
+												<a href="images/tmp/product_img.jpg" class="fancy_img" data-fancybox="product">
+													<img data-src="images/tmp/product_img.jpg" alt="" class="swiper-lazy">
+	
+													<div class="zoom">
+														<svg><use xlink:href="images/sprite.svg#ic_zoom"></use></svg>
+													</div>
+												</a>
+											</div>
+										</div>
+	
+										<div class="swiper-button-prev">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+										</div>
+			
+										<div class="swiper-button-next">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+										</div>
+									</div>
+								</div>
+
+								<div class="thumbs">
+									<button class="btn active" data-slide-index="0">
+										<div class="thumb">
+											<img data-src="images/tmp/product_thumbs_img.jpg" alt="" class="lazyload">
+										</div>
+									</button>
+	
+									<button class="btn" data-slide-index="1">
+										<div class="thumb">
+											<img data-src="images/tmp/product_thumbs_img2.jpg" alt="" class="lazyload">
+										</div>
+									</button>
+	
+									<button class="btn" data-slide-index="2">
+										<div class="thumb">
+											<img data-src="images/tmp/product_thumbs_img3.jpg" alt="" class="lazyload">
+										</div>
+									</button>
+								</div>
+							</div>
+
+							<div class="info">
+								<div class="col">
+									<div class="articul">Артикул: 101932</div>
+
+									<div class="text_block">
+										<p>Предназначен для устройства легких межкомнатных перегородок, подвесных потолков, облицовки стен, а также в зданиях и помещениях с влажным и мокрым влажностными режимами с обеспечением вытяжной вентиляцией и при условии защиты лицевой поверхности, например: гидроизоляцией, водостойкими грунтовками, красками, керамической плиткой и прочее. Состоит из гипсового сердечника, оклеенного с двух сторон картоном. Боковые (продольные) кромки листа также оклеены картоном и имеют полукруглую утоненную форму.</p>
+									</div>
+
+									<div class="manufacturer">
+										<div class="title">Производитель</div>
+
+										<div class="val">«Михайловцемент», «Мальцовский портландцемент», «Осколцемент», «Липецкцемент».</div>
+									</div>
+
+									<div class="composition">
+										<div class="title">Состав ЦСП</div>
+
+										<div class="val">
+											<div>66% – портландцемент</div>
+											<div>21% – древесная стружка</div>
+											<div>10% – вода</div>
+											<div>1,25% – водный раствор сульфата алюминия</div>
+											<div>1,25% – водный раствор силиката натрия (жидкое стекло)</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="buy">
+									<div class="price">
+										<div>502 <span class="currency">в</span></div>
+										<div class="old">605 <span class="currency">о</span></div>
+
+										<div class="exp">Цена за единицу</div>
+										<div class="exp">Количество в упаковке: 1</div>
+									</div>
+
+									<button class="favorite_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+									</button>
+
+									<div class="amount">
+										<button type="button" class="minus">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+										</button>
+									
+										<input type="text" value="1" class="input"
+										  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+									
+										<button type="button" class="plus">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+										</button>
+									</div>
+
+									<button class="buy_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart_success"></use></svg>
+										<span>В КОРЗИНУ</span>
+										<span>В КОРЗИНЕ</span>
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="product_data">
+							<div class="item active">
+								<div class="head">
+									<div class="title">Характеристики</div>
+
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+									</div>
+								</div>
+						
+								<div class="data" style="display: block;">
+									<div class="features">
+										<div class="col">
+											<div>
+												<div class="label">Тип товара</div>
+												<div class="val">Гипсокартон</div>
+											</div>
+
+											<div>
+												<div class="label">Бренд</div>
+												<div class="val">Волма</div>
+											</div>
+
+											<div>
+												<div class="label">Применение</div>
+												<div class="val">Для стен, для потолков</div>
+											</div>
+											
+											<div>
+												<div class="label">Вид</div>
+												<div class="val">Влагостойкий</div>
+											</div>
+											
+											<div>
+												<div class="label">Количество на поддоне</div>
+												<div class="val">50 шт.</div>
+											</div>
+
+											<div>
+												<div class="label">Влагостойкость</div>
+												<div class="val">Да</div>
+											</div>
+
+											<div>
+												<div class="label">Вид кромки</div>
+												<div class="val">ПЛУК</div>
+											</div>
+										</div>
+										
+										<div class="col">
+											<div>
+												<div class="label">Размеры, мм</div>
+												<div class="val">2500х1200</div>
+											</div>
+
+											<div>
+												<div class="label">Длина, мм</div>
+												<div class="val">2500</div>
+											</div>
+
+											<div>
+												<div class="label">Ширина, мм</div>
+												<div class="val">1200</div>
+											</div>
+
+											<div>
+												<div class="label">Толщина, мм</div>
+												<div class="val">12,5</div>
+											</div>
+
+											<div>
+												<div class="label">Допустимое отклонение</div>
+												<div class="val">По ширине до плюс 4 мм, по длине до минус 5 мм</div>
+											</div>
+
+											<div>
+												<div class="label">Страна-производитель</div>
+												<div class="val">Россия</div>
+											</div>
+
+											<div>
+												<div class="label">Вес, кг</div>
+												<div class="val">27</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="item">
+								<div class="head">
+									<div class="title">Сертификаты</div>
+
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+									</div>
+								</div>
+						
+								<div class="data">
+									
+								</div>
+							</div>
+
+							
+							<div class="item">
+								<div class="head">
+									<div class="title">Доставка и оплата</div>
+
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+									</div>
+								</div>
+						
+								<div class="data">
+									
+								</div>
+							</div>
+
+							
+							<div class="item">
+								<div class="head">
+									<div class="title">Возврат</div>
+
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+									</div>
+								</div>
+						
+								<div class="data">
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="products block">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title">С этим товаром покупают</div>
+						</div>
+
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="product">
+										<div class="stickers">
+											<div><div class="sticker yellow">НОВИНКА</div></div>
+										</div>
+
+										<button class="favorite_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+										</button>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb1.png" alt="" class="swiper-lazy"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Полотенцедержатель Fora Long L003 400 мм с 4 крючками на шуруп металл хром</a>
+										</div>
+
+										<div class="buy">
+											<div class="price">
+												<div>1 214 <span class="currency">в</span></div>
+											</div>
+
+											<div class="amount">
+												<button type="button" class="minus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+												</button>
+											
+												<input type="text" value="1" class="input"
+												  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+											
+												<button type="button" class="plus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+												</button>
+											</div>
+
+											<button class="buy_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart_success"></use></svg>
+											</button>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="swiper-slide">
+									<div class="product">
+										<div class="stickers">
+											<div><div class="sticker yellow">НОВИНКА</div></div>
+										</div>
+
+										<button class="favorite_btn active">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+										</button>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb2.png" alt="" class="swiper-lazy"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Обои виниловые на флизелиновой основе Euro Decor Iron 7164-23 (1,06х10,05 м)</a>
+										</div>
+
+										<div class="buy">
+											<div class="price">
+												<div>2 500 <span class="currency">в</span></div>
+											</div>
+
+											<div class="amount">
+												<button type="button" class="minus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+												</button>
+											
+												<input type="text" value="1" class="input"
+												  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+											
+												<button type="button" class="plus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+												</button>
+											</div>
+
+											<button class="buy_btn active">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart_success"></use></svg>
+											</button>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="swiper-slide">
+									<div class="product">
+										<div class="stickers">
+											<div><div class="sticker yellow">НОВИНКА</div></div>
+										</div>
+
+										<button class="favorite_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+										</button>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb3.png" alt="" class="swiper-lazy"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Розетка Schneider Electric Blanca тройная BLNRA000315 открытая установка ясень без заземления IP20</a>
+										</div>
+
+										<div class="buy">
+											<div class="price">
+												<div>657 <span class="currency">в</span></div>
+											</div>
+
+											<div class="amount">
+												<button type="button" class="minus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+												</button>
+											
+												<input type="text" value="1" class="input"
+												  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+											
+												<button type="button" class="plus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+												</button>
+											</div>
+
+											<button class="buy_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart_success"></use></svg>
+											</button>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="swiper-slide">
+									<div class="product">
+										<div class="stickers">
+											<div><div class="sticker yellow">НОВИНКА</div></div>
+										</div>
+
+										<button class="favorite_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+										</button>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb4.png" alt="" class="swiper-lazy"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Фиксатор Punto TL CF-17 круглая розетка (кофе)</a>
+										</div>
+
+										<div class="buy">
+											<div class="price">
+												<div>390 <span class="currency">в</span></div>
+											</div>
+
+											<div class="amount">
+												<button type="button" class="minus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+												</button>
+											
+												<input type="text" value="1" class="input"
+												  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+											
+												<button type="button" class="plus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+												</button>
+											</div>
+
+											<button class="buy_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart_success"></use></svg>
+											</button>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="swiper-slide">
+									<div class="product">
+										<div class="stickers">
+											<div><div class="sticker yellow">НОВИНКА</div></div>
+										</div>
+
+										<button class="favorite_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+										</button>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb1.png" alt="" class="swiper-lazy"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Полотенцедержатель Fora Long L003 400 мм с 4 крючками на шуруп металл хром</a>
+										</div>
+
+										<div class="buy">
+											<div class="price">
+												<div>1 214 <span class="currency">в</span></div>
+											</div>
+
+											<div class="amount">
+												<button type="button" class="minus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+												</button>
+											
+												<input type="text" value="1" class="input"
+												  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+											
+												<button type="button" class="plus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+												</button>
+											</div>
+
+											<button class="buy_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart_success"></use></svg>
+											</button>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="swiper-slide">
+									<div class="product">
+										<div class="stickers">
+											<div><div class="sticker yellow">НОВИНКА</div></div>
+										</div>
+
+										<button class="favorite_btn active">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+										</button>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb2.png" alt="" class="swiper-lazy"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Обои виниловые на флизелиновой основе Euro Decor Iron 7164-23 (1,06х10,05 м)</a>
+										</div>
+
+										<div class="buy">
+											<div class="price">
+												<div>2 500 <span class="currency">в</span></div>
+											</div>
+
+											<div class="amount">
+												<button type="button" class="minus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+												</button>
+											
+												<input type="text" value="1" class="input"
+												  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+											
+												<button type="button" class="plus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+												</button>
+											</div>
+
+											<button class="buy_btn active">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart_success"></use></svg>
+											</button>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="swiper-slide">
+									<div class="product">
+										<div class="stickers">
+											<div><div class="sticker yellow">НОВИНКА</div></div>
+										</div>
+
+										<button class="favorite_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+										</button>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb3.png" alt="" class="swiper-lazy"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Розетка Schneider Electric Blanca тройная BLNRA000315 открытая установка ясень без заземления IP20</a>
+										</div>
+
+										<div class="buy">
+											<div class="price">
+												<div>657 <span class="currency">в</span></div>
+											</div>
+
+											<div class="amount">
+												<button type="button" class="minus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+												</button>
+											
+												<input type="text" value="1" class="input"
+												  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+											
+												<button type="button" class="plus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+												</button>
+											</div>
+
+											<button class="buy_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart_success"></use></svg>
+											</button>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="swiper-slide">
+									<div class="product">
+										<div class="stickers">
+											<div><div class="sticker yellow">НОВИНКА</div></div>
+										</div>
+
+										<button class="favorite_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+										</button>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb4.png" alt="" class="swiper-lazy"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Фиксатор Punto TL CF-17 круглая розетка (кофе)</a>
+										</div>
+
+										<div class="buy">
+											<div class="price">
+												<div>390 <span class="currency">в</span></div>
+											</div>
+
+											<div class="amount">
+												<button type="button" class="minus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+												</button>
+											
+												<input type="text" value="1" class="input"
+												  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+											
+												<button type="button" class="plus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+												</button>
+											</div>
+
+											<button class="buy_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart_success"></use></svg>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+	
+							<div class="swiper-button-prev">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+							</div>
+
+							<div class="swiper-button-next">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="products block">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title">Ранее вы смотрели</div>
+						</div>
+
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="product">
+										<div class="stickers">
+											<div><div class="sticker grey">ХИТ ПРОДАЖ</div></div>
+
+											<div><div class="sticker red">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_percents"></use></svg>
+												</div>
+												<span>СКИДКА</span>
+											</div></div>
+										</div>
+
+										<button class="favorite_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+										</button>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb5.png" alt="" class="swiper-lazy"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Доборная планка VellDoris Ольсен, NEXT 1 телескопическая экошпон белый эмалит 150х10х2150 мм (1 шт.)</a>
+										</div>
+
+										<div class="buy">
+											<div class="price">
+												<div>760 <span class="currency">в</span></div>
+												<div class="old">830 <span class="currency">о</span></div>
+											</div>
+
+											<div class="amount">
+												<button type="button" class="minus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+												</button>
+											
+												<input type="text" value="1" class="input"
+												  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+											
+												<button type="button" class="plus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+												</button>
+											</div>
+
+											<button class="buy_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart_success"></use></svg>
+											</button>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="swiper-slide">
+									<div class="product">
+										<div class="stickers">
+											<div><div class="sticker red">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_percents"></use></svg>
+												</div>
+												<span>СКИДКА</span>
+											</div></div>
+										</div>
+
+										<button class="favorite_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+										</button>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb6.png" alt="" class="swiper-lazy"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Подложка демпферная SoundGuard VibroRoll 3,5 мм 1х15 м</a>
+										</div>
+
+										<div class="buy">
+											<div class="price">
+												<div>216 <span class="currency">в</span></div>
+												<div class="old">350 <span class="currency">о</span></div>
+											</div>
+
+											<div class="amount">
+												<button type="button" class="minus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+												</button>
+											
+												<input type="text" value="1" class="input"
+												  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+											
+												<button type="button" class="plus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+												</button>
+											</div>
+
+											<button class="buy_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart_success"></use></svg>
+											</button>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="swiper-slide">
+									<div class="product">
+										<div class="stickers">
+											<div><div class="sticker red">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_percents"></use></svg>
+												</div>
+												<span>СКИДКА</span>
+											</div></div>
+										</div>
+
+										<button class="favorite_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+										</button>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb7.png" alt="" class="swiper-lazy"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Торф для торфяных биотуалетов Добрый помощник 50 л</a>
+										</div>
+
+										<div class="buy">
+											<div class="price">
+												<div>225 <span class="currency">в</span></div>
+												<div class="old">290 <span class="currency">о</span></div>
+											</div>
+
+											<div class="amount">
+												<button type="button" class="minus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+												</button>
+											
+												<input type="text" value="1" class="input"
+												  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+											
+												<button type="button" class="plus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+												</button>
+											</div>
+
+											<button class="buy_btn active">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart_success"></use></svg>
+											</button>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="swiper-slide">
+									<div class="product">
+										<div class="stickers">
+											<div><div class="sticker red">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_percents"></use></svg>
+												</div>
+												<span>СКИДКА</span>
+											</div></div>
+										</div>
+
+										<button class="favorite_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+										</button>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb8.png" alt="" class="swiper-lazy"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Выключатель с рамкой Schneider Electric Blanca BLNVS010513 двухклавишный скрытая установка...</a>
+										</div>
+
+										<div class="buy">
+											<div class="price">
+												<div>397 <span class="currency">в</span></div>
+												<div class="old">409 <span class="currency">о</span></div>
+											</div>
+
+											<div class="amount">
+												<button type="button" class="minus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+												</button>
+											
+												<input type="text" value="1" class="input"
+												  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+											
+												<button type="button" class="plus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+												</button>
+											</div>
+
+											<button class="buy_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart_success"></use></svg>
+											</button>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="swiper-slide">
+									<div class="product">
+										<div class="stickers">
+											<div><div class="sticker grey">ХИТ ПРОДАЖ</div></div>
+
+											<div><div class="sticker red">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_percents"></use></svg>
+												</div>
+												<span>СКИДКА</span>
+											</div></div>
+										</div>
+
+										<button class="favorite_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+										</button>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb5.png" alt="" class="swiper-lazy"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Доборная планка VellDoris Ольсен, NEXT 1 телескопическая экошпон белый эмалит 150х10х2150 мм (1 шт.)</a>
+										</div>
+
+										<div class="buy">
+											<div class="price">
+												<div>760 <span class="currency">в</span></div>
+												<div class="old">830 <span class="currency">о</span></div>
+											</div>
+
+											<div class="amount">
+												<button type="button" class="minus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+												</button>
+											
+												<input type="text" value="1" class="input"
+												  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+											
+												<button type="button" class="plus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+												</button>
+											</div>
+
+											<button class="buy_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart_success"></use></svg>
+											</button>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="swiper-slide">
+									<div class="product">
+										<div class="stickers">
+											<div><div class="sticker red">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_percents"></use></svg>
+												</div>
+												<span>СКИДКА</span>
+											</div></div>
+										</div>
+
+										<button class="favorite_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+										</button>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb6.png" alt="" class="swiper-lazy"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Подложка демпферная SoundGuard VibroRoll 3,5 мм 1х15 м</a>
+										</div>
+
+										<div class="buy">
+											<div class="price">
+												<div>216 <span class="currency">в</span></div>
+												<div class="old">350 <span class="currency">о</span></div>
+											</div>
+
+											<div class="amount">
+												<button type="button" class="minus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+												</button>
+											
+												<input type="text" value="1" class="input"
+												  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+											
+												<button type="button" class="plus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+												</button>
+											</div>
+
+											<button class="buy_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart_success"></use></svg>
+											</button>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="swiper-slide">
+									<div class="product">
+										<div class="stickers">
+											<div><div class="sticker red">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_percents"></use></svg>
+												</div>
+												<span>СКИДКА</span>
+											</div></div>
+										</div>
+
+										<button class="favorite_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+										</button>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb7.png" alt="" class="swiper-lazy"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Торф для торфяных биотуалетов Добрый помощник 50 л</a>
+										</div>
+
+										<div class="buy">
+											<div class="price">
+												<div>225 <span class="currency">в</span></div>
+												<div class="old">290 <span class="currency">о</span></div>
+											</div>
+
+											<div class="amount">
+												<button type="button" class="minus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+												</button>
+											
+												<input type="text" value="1" class="input"
+												  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+											
+												<button type="button" class="plus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+												</button>
+											</div>
+
+											<button class="buy_btn active">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart_success"></use></svg>
+											</button>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="swiper-slide">
+									<div class="product">
+										<div class="stickers">
+											<div><div class="sticker red">
+												<div class="icon">
+													<svg><use xlink:href="images/sprite.svg#ic_percents"></use></svg>
+												</div>
+												<span>СКИДКА</span>
+											</div></div>
+										</div>
+
+										<button class="favorite_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite2"></use></svg>
+										</button>
+
+										<a href="/" class="thumb">
+											<div><img data-src="images/tmp/product_thumb8.png" alt="" class="swiper-lazy"></div>
+										</a>
+
+										<div class="name">
+											<a href="/">Выключатель с рамкой Schneider Electric Blanca BLNVS010513 двухклавишный скрытая установка...</a>
+										</div>
+
+										<div class="buy">
+											<div class="price">
+												<div>397 <span class="currency">в</span></div>
+												<div class="old">409 <span class="currency">о</span></div>
+											</div>
+
+											<div class="amount">
+												<button type="button" class="minus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+												</button>
+											
+												<input type="text" value="1" class="input"
+												  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+											
+												<button type="button" class="plus">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+												</button>
+											</div>
+
+											<button class="buy_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart_success"></use></svg>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+	
+							<div class="swiper-button-prev">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+							</div>
+
+							<div class="swiper-button-next">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="block">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title">Материалы для сухого строительства</div>
+						</div>
+
+						<div class="text_block">
+							<p>Профиль потолочный Knauf 60х27 мм 3 м 0.60 мм в Москве представлен по отличной цене. Перед оформлением онлайн заказа рекомендуем ознакомиться с описанием, характеристиками, отзывами. Купить профиль потолочный Knauf 60х27 мм 3 м 0.60 мм в интернет-магазине в Москве. Оформить и оплатить заказ можно на официальном сайте. Условия продажи, доставки и цены на товар профиль потолочный Knauf 60х27 мм 3 м 0.60 мм действительны в Москве.</p>
+
+							<p>Предназначен для формирования каркаса подвесных потолков и для обшивки стен. Монтируется потолочный профиль с профилем потолочным направляющим 27х28. Изготовлен методом холодного проката из оцинкованной металлической ленты толщиной 0,60 мм. Товары для строительства и ремонта из категории Сухие смеси вы можете подобрать и купить в каталоге интернет-магазина. Доставка товаров по Москве, близлежащим городам и Московской области осуществляется собственным транспортом, а доставку по России до 30кг мы аккуратно упакуем и отправим транспортной компанией. Мы осуществляем продажу как физическим лицам, так и юридическим.</p>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="top">
+					<div class="cont row">
+						<button class="report_btn">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_message"></use></svg>
+							<span>Предложить улучшения или сообщить об ошибке</span>
+						</button>
+
+
+						<div class="subscribe">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_subscribe"></use></svg>
+							
+							<div class="title">Подпишитесь на рассылку и будьте в курсе!<br> Акции, скидки, распродажи ждут!</div>
+
+							<form action="">
+								<input type="email" name="" value="" class="input" placeholder="Ваш e-mail">
+
+								<button type="submit" class="submit_btn">ПОДПИСАТЬСЯ</button>
+							</form>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="info">
+					<div class="cont row">
+						<div class="col_left">
+							<div class="logo">
+								<img src="images/logo_light.png" alt="">
+							</div>
+	
+							<div class="copyright">
+								<div>&copy; 2022 ООО «ЛЕГИОН СМ»</div>
+								<div>Все права защищены.</div>
+							</div>
+	
+							<div class="privacy_policy_link">
+								<a href="/">Политика конфиденциальности</a>
+							</div>
+	
+							<div class="creator">
+								<a href="/" target="_blank" rel="noopener">Создание сайта — <span>Точка.ру</span></a>
+							</div>
+						</div>
+
+
+						<div class="links">
+							<div class="title">КАТАЛОГ</div>
+
+							<div class="items">
+								<div><a href="/">Стройматериалы</a></div>
+								<div><a href="/">Инструмент</a></div>
+								<div><a href="/">Элекстрика</a></div>
+								<div><a href="/">Инженерные системы</a></div>
+								<div><a href="/">Интерьер и отделка</a></div>
+								<div><a href="/">Сантехника</a></div>
+								<div><a href="/">Крепеж</a></div>
+								<div><a href="/">Благоустройство</a></div>
+							</div>
+						</div>
+
+
+						<div class="links">
+							<div class="title">ПОКУПАТЕЛЮ</div>
+
+							<div class="items">
+								<div><a href="/">Доставка</a></div>
+								<div><a href="/">Оплата</a></div>
+								<div><a href="/">Гарантии</a></div>
+								<div><a href="/">Документация</a></div>
+								<div><a href="/">Юридическим лицам</a></div>
+							</div>
+						</div>
+
+
+						<div class="contacts">
+							<div class="title">КОНТАКТЫ</div>
+
+							<div class="location">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+								</div>
+
+								<div>
+									<div>г. Москва, Щербаковская 3, 7 этаж, офис 702</div>
+									<div>г. Одинцово, Садовая, 3Б</div>
+								</div>
+							</div>
+
+							<div class="phones">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+								</div>
+
+								<div>
+									<div><a href="tel:89653881101">8 965 388-11-01</a> (по вопросам сотрудничества)</div>
+									<div><a href="tel:89653881103">8 965 388-11-03</a> (по вопросам трудоустройства)</div>
+								</div>
+							</div>
+
+							<div class="email">
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+								</div>
+
+								<div>
+									<div><a href="mailto:info@legion-sm.ru">info@legion-sm.ru</a></div>
+								</div>
+							</div>
+
+							<div class="socials">
+								<a href="/" target="_blank" rel="noopener nofollow" class="vk_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_vk"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow" class="fb_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_fb"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow" class="instagram_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow" class="telegram_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow" class="whatsapp_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="modal_title">Задать вопрос</div>
+
+			<form action="" class="form">
+				<div class="columns row">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+							<div class="label">Ваше имя</div>
+						</div>
+					</div>
+	
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input">
+							<div class="label">Телефон или e-mail</div>
+						</div>
+					</div>
+				</div>
+	
+				<div class="line">
+					<div class="field">
+						<textarea name=""></textarea>
+						<div class="label">Сообщение</div>
+					</div>
+				</div>
+	
+				<div class="line agree">
+					<label>
+						<input type="checkbox" name="">
+						<div class="check">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+						</div>
+						<div>Соглашаюсь на обработку моих персональных данных и принимаю <a href="/" target="_blank">политику конфиденциальности</a>.</div>
+					</label>
+				</div>
+	
+				<div class="submit">
+					<button type="submit" class="submit_btn">ОТПРАВИТЬ</button>
+				</div>
+			</form>
+		</section>
+
+
+		<section class="modal success" id="success_modal">
+			<div class="modal_title">Спасибо!</div>
+
+			<div class="desc">Благодарим за ваш вопрос, наш менеджер свяжется с вами по указанному телефону в самое ближайшее время!</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/ion.rangeSlider.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
