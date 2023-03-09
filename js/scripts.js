@@ -174,11 +174,26 @@ $(() => {
 
 	// Каталог
 	$('header .catalog .categories a').mouseenter(function () {
-		$('header .catalog .categories a').removeClass('active')
-		$('header .catalog .sub').hide()
+		if(!$(this).hasClass('active')){
+			$('header .catalog .categories a').removeClass('active')
+			$('header .catalog .sub').hide()
 
-		$(this).addClass('active')
-		$('header .catalog .sub' + $(this).parent().index()).fadeIn(300)
+			$(this).addClass('active')
+			$('header .catalog .sub' + ($(this).parent().index() + 1)).fadeIn(300)
+		}
+	})
+
+	$('header .catalog .sub .row > *:not(.level3) a').mouseenter(function () {
+		if(!$(this).hasClass('active')  && $(this).hasClass('sub_link')){
+			$('header .catalog .sub a').removeClass('active')
+			$('header .catalog .sub .level3').hide()
+
+			$(this).addClass('active')
+			$('header .catalog .sub .level3.sub' + ($(this).parent().index() + 1)).fadeIn(300)
+		} else {
+			$('header .catalog .sub a').removeClass('active')
+			$('header .catalog .sub .level3').hide()
+		}
 	})
 
 
