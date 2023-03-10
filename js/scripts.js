@@ -175,11 +175,11 @@ $(() => {
 	// Каталог
 	$('header .catalog .categories a').mouseenter(function () {
 		if(!$(this).hasClass('active')){
-			$('header .catalog .categories a').removeClass('active')
-			$('header .catalog .sub').hide()
+			$('header .catalog .categories a, header .catalog .sub a').removeClass('active')
+			$('header .catalog .sub, header .catalog .sub .level3').hide()
 
 			$(this).addClass('active')
-			$('header .catalog .sub' + ($(this).parent().index() + 1)).fadeIn(300)
+			$('header .catalog .sub.sub' + ($(this).parent().index() + 1)).fadeIn(300)
 		}
 	})
 
